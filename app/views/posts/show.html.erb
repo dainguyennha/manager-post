@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-5 col-md-offset-3">
+    <div class="post">
+      <div class="card">
+         <div class="card-body">
+          <h5 class="card-title"><%= @post.title %></h5>
+          <p class="card-text"><%= @post.content %></p>
+          <%= button_to "Delete", post_path(@post), :class => "btn btn-primary", method: "delete" %>
+          <%= link_to "Edit", edit_post_path(@post), :class => "btn btn-primary" %>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>

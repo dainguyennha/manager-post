@@ -1,0 +1,22 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.post{
+  border: 1px solid black;
+  border-radius: 15px;
+  display: grid;
+  grid-template-column: 1fr 1fr; 
+
+  button {
+    display: block;
+    text-align: right;
+  }
+
+  a {
+    display: block;
+    float: right;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
